@@ -52,7 +52,7 @@ Jan 2 15:04:05 DSXXXX Connection: User [admin] from [XXX.XXX.XXX.XXX] failed to 
 
 <decoder name="synology-connection">
   <parent>synology-connection</parent>
-  <regex>(fail)</regex>
+  <regex>(failed)</regex>
   <order>status</order>
 </decoder>
 
